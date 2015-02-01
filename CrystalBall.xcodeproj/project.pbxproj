@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03B14691A53B95C00498B2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03B14681A53B95C00498B2F /* Images.xcassets */; };
 		D09973BD1A50B0F600C98ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09973BC1A50B0F600C98ED6 /* main.m */; };
 		D09973C01A50B0F600C98ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09973BF1A50B0F600C98ED6 /* AppDelegate.m */; };
 		D09973C31A50B0F600C98ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09973C21A50B0F600C98ED6 /* ViewController.m */; };
 		D09973C61A50B0F600C98ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09973C41A50B0F600C98ED6 /* Main.storyboard */; };
-		D09973C81A50B0F600C98ED6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09973C71A50B0F600C98ED6 /* Images.xcassets */; };
 		D09973CB1A50B0F600C98ED6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09973C91A50B0F600C98ED6 /* LaunchScreen.xib */; };
 		D09973D71A50B0F600C98ED6 /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09973D61A50B0F600C98ED6 /* CrystalBallTests.m */; };
+		D0B935A51A50C5850021FEE8 /* CrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B935A41A50C5850021FEE8 /* CrystalBall.m */; };
+		D0B935A91A5337D40021FEE8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B935A81A5337D40021FEE8 /* AudioToolbox.framework */; };
+		D0B935AB1A533CE10021FEE8 /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0B935AA1A533CE10021FEE8 /* crystal_ball.mp3 */; };
+		D0B935AD1A5342510021FEE8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B935AC1A5342510021FEE8 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D03B14681A53B95C00498B2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D09973B71A50B0F600C98ED6 /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09973BB1A50B0F600C98ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D09973BC1A50B0F600C98ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +40,15 @@
 		D09973C11A50B0F600C98ED6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D09973C21A50B0F600C98ED6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D09973C51A50B0F600C98ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D09973C71A50B0F600C98ED6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D09973CA1A50B0F600C98ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D09973D01A50B0F600C98ED6 /* CrystalBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09973D51A50B0F600C98ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D09973D61A50B0F600C98ED6 /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		D0B935A31A50C5850021FEE8 /* CrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalBall.h; sourceTree = SOURCE_ROOT; };
+		D0B935A41A50C5850021FEE8 /* CrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalBall.m; sourceTree = SOURCE_ROOT; };
+		D0B935A81A5337D40021FEE8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D0B935AA1A533CE10021FEE8 /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
+		D0B935AC1A5342510021FEE8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B935AD1A5342510021FEE8 /* AVFoundation.framework in Frameworks */,
+				D0B935A91A5337D40021FEE8 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +92,18 @@
 		D09973B91A50B0F600C98ED6 /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
+				D0B935AA1A533CE10021FEE8 /* crystal_ball.mp3 */,
 				D09973BE1A50B0F600C98ED6 /* AppDelegate.h */,
 				D09973BF1A50B0F600C98ED6 /* AppDelegate.m */,
 				D09973C11A50B0F600C98ED6 /* ViewController.h */,
 				D09973C21A50B0F600C98ED6 /* ViewController.m */,
+				D0B935A31A50C5850021FEE8 /* CrystalBall.h */,
+				D0B935A41A50C5850021FEE8 /* CrystalBall.m */,
 				D09973C41A50B0F600C98ED6 /* Main.storyboard */,
-				D09973C71A50B0F600C98ED6 /* Images.xcassets */,
+				D03B14681A53B95C00498B2F /* Images.xcassets */,
 				D09973C91A50B0F600C98ED6 /* LaunchScreen.xib */,
+				D0B935AC1A5342510021FEE8 /* AVFoundation.framework */,
+				D0B935A81A5337D40021FEE8 /* AudioToolbox.framework */,
 				D09973BA1A50B0F600C98ED6 /* Supporting Files */,
 			);
 			path = CrystalBall;
@@ -200,8 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09973C61A50B0F600C98ED6 /* Main.storyboard in Resources */,
+				D03B14691A53B95C00498B2F /* Images.xcassets in Resources */,
+				D0B935AB1A533CE10021FEE8 /* crystal_ball.mp3 in Resources */,
 				D09973CB1A50B0F600C98ED6 /* LaunchScreen.xib in Resources */,
-				D09973C81A50B0F600C98ED6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09973C31A50B0F600C98ED6 /* ViewController.m in Sources */,
+				D0B935A51A50C5850021FEE8 /* CrystalBall.m in Sources */,
 				D09973C01A50B0F600C98ED6 /* AppDelegate.m in Sources */,
 				D09973BD1A50B0F600C98ED6 /* main.m in Sources */,
 			);
@@ -412,6 +430,7 @@
 				D09973DC1A50B0F600C98ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09973DD1A50B0F600C98ED6 /* Build configuration list for PBXNativeTarget "CrystalBallTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				D09973DF1A50B0F600C98ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

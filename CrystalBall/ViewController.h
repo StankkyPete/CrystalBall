@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CrystalBall;
 
 @interface ViewController : UIViewController
+
+@property (strong,nonatomic) CrystalBall *crystalBall;
+
+@property (strong, nonatomic) IBOutlet UILabel *predictionLabel;
+
+- (IBAction)buttonPressed:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
+
 
 
 @end
